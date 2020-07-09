@@ -1,26 +1,23 @@
 # Setup
-This will download Lab 7 locally, allowing you to work on your scripts and upload (push) them back up to GitHub.
+This will download Lab 8 locally, allowing you to work on your scripts and upload (push) them back up to GitHub.
 
-1. Clone your lab repository into your ~/ops435/lab7 directory using SSH:
+1. Clone your lab repository into your ~/ops435/lab8 directory using SSH:
 ```bash
-git clone git@github.com:ops435/lab-7-yourgithubusername.git ~/ops435/lab7/
+git clone git@github.com:ops435/lab-8-yourgithubusername.git ~/ops435/lab8/
 ```
 2. Copy your backed-up work into your new GitHub-linked directory:
 ```bash
-cp ~/old_ops435/lab7/* ~/ops435/lab7/
+cp ~/old_ops435/lab8/* ~/ops435/lab8/
 ```
 
 # Submission
 1. There is no checking script for this lab.
 
-2. Paste the output of **running your scripts for this lab** into *laboutput.txt*:
-```bash
-vi ~/ops435/lab7/laboutput.txt
-```
+2. Ensure that `fabfile.py` is in this directory.
 
 3. Commit and push (upload) your lab work:
 ```bash
-git add lab*
+git add fabfile.py 
 git commit -m "Individual message or note."
 git push
 ```
