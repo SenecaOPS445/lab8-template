@@ -1,13 +1,13 @@
 # Setup
 This will download Lab 8 locally, allowing you to work on your scripts and upload (push) them back up to GitHub.
 
-1. Clone your lab repository into your ~/ops435/lab8 directory using SSH:
+1. Clone your lab repository into your ~/ops445/lab8 directory using SSH:
 ```bash
-git clone git@github.com:ops435/lab-8-yourgithubusername.git ~/ops435/lab8/
+git clone git@github.com:ops445/lab-8-yourgithubusername.git ~/ops445/lab8/
 ```
 2. Copy your backed-up work into your new GitHub-linked directory:
 ```bash
-cp ~/old_ops435/lab8/* ~/ops435/lab8/
+cp ~/old_ops445/lab8/* ~/ops445/lab8/
 ```
 
 # Submission
